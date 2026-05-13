@@ -1,3 +1,5 @@
+--fct_customers.sql
+
 with source as (
 
     select * from {{ source('tpch', 'customer') }}
@@ -22,3 +24,4 @@ cleanup as (
 )
 
 select * from cleanup
+
