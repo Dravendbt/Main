@@ -1,5 +1,3 @@
---comment
-
 {{ config(
     materialized = 'view'
 ) }}
