@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: stg_orders
+    description: "Staging model for orders"
+    columns:
+      - name: order_key
+        description: "Unique identifier for the order"
+      - name: customer_key
+        description: "Customer foreign key"
+      - name: status_code
+        description: "Order status code"
